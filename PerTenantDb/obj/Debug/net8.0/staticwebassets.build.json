@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TmTtnIUuqIrzCCMe4JthR9rDAx5Mr+vwpndbpP42Ypo=",
+  "Source": "PerTenantDb",
+  "BasePath": "_content/PerTenantDb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

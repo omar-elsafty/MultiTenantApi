@@ -1,0 +1,24 @@
+@Tenants_HostAddress = http://localhost:5049
+
+
+###
+
+GET {{Tenants_HostAddress}}/product/list/
+Accept: application/json
+tenant: tenant-1
+###
+
+POST {{Tenants_HostAddress}}/product
+Content-Type: application/json
+tenant: tenant-2
+
+{
+  "name": "Product 3"
+}
+###
+
+GET {{Tenants_HostAddress}}/product/1/
+Accept: application/json
+tenant: tenant-2
+
+###
